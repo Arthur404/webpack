@@ -7,7 +7,6 @@ const sassProd = require('./webpack/prodsass');
 const babel = require('./webpack/bable');
 const uglifyJS = require('./webpack/uglify');
 const assets = require('./webpack/images');
-const postcss = require('./postcss.config');
 
 const PATHS = {
     source: path.join(__dirname, 'app/src'),
@@ -33,8 +32,7 @@ module.exports = function (env) {
         return merge([
             common,
             sassProd(PATHS.source),
-            uglifyJS(),
-            postcss()
+            uglifyJS()
         ]);
     }
     if (env === 'dev') {

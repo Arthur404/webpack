@@ -1,7 +1,7 @@
-@import "utils/var";
+@import "~bootstrap/scss/bootstrap-grid";
+@import "~meyer-reset-sass";
 
-@import "../bower_components/meyer-reset/stylesheets/meyer-reset";
-@import "../bower_components/font-awesome/scss/font-awesome";
+@import "utils/var";
 
 @import "base/common";
 @import "base/fonts";
