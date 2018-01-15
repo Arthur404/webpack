@@ -3580,6 +3580,10 @@ methods@~1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/methods/-/methods-1.1.2.tgz#5529a4d67654134edcc5266656835b0f851afcee"
 
+meyer-reset-sass@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/meyer-reset-sass/-/meyer-reset-sass-1.0.1.tgz#ec55e2e74e02bd83d0df23521c571a9cc1ef959c"
+
 micromatch@^2.1.5, micromatch@^2.3.11:
   version "2.3.11"
   resolved "https://registry.yarnpkg.com/micromatch/-/micromatch-2.3.11.tgz#86677c97d1720b363431d04d0d15293bd38c1565"
